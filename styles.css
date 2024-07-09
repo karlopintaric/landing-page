@@ -67,6 +67,8 @@ button {
     justify-content: center;
     align-items: center;
     background-color: gray;
+    width: 400px;
+    min-height: 200px;
 }
 
 .main-text {

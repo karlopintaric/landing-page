@@ -10,7 +10,7 @@ a {
 }
 
 a,
-p,
+.secondary-text,
 .img-container,
 button {
     font-size: 18px;
@@ -79,4 +79,101 @@ button {
 
 .secondary-text {
     margin: 10px 0;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 256px 64px;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.info-images {
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.img-subtext {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 150px;
+}
+
+.info-img-container {
+    border: 3px solid #3882f6;
+    border-radius: 12px;
+    width: 150px;
+    height: 150px;
+}
+
+.info-img-subtext {
+    text-align: center;
+}
+
+.quote {
+    padding: 128px 270px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-text {
+    text-align: left;
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+
+.quote-author {
+    font-weight: bold;
+    align-self: flex-end;
+    font-size: 16px;
+}
+
+.action {
+    margin: 72px 200px;
+    background-color: #3882f6;
+    border-radius: 6px;
+    padding: 32px 72px;
+    display: flex;
+    justify-content: space-around;
+    gap: 72px;
+    align-items: center;
+}
+
+.btn-secondary {
+    border: 2px solid white;
+}
+
+.action-title {
+    font-size: 18px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.action-subtext {
+    color: #e5e7eb;
+    font-weight: 300;
+}
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    font-weight: 300;
+    padding: 24px 128px;
+    font-size: 12px;
 }

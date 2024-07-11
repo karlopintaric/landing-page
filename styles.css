@@ -55,6 +55,8 @@ button {
 .hero-main {
     display: flex;
     gap: 32px;
+    width: 1000px;
+    margin: auto;
 }
 
 .left,
@@ -142,7 +144,7 @@ button {
 }
 
 .action {
-    margin: 72px 200px;
+    margin: 72px auto;
     background-color: #3882f6;
     border-radius: 6px;
     padding: 32px 72px;
@@ -150,6 +152,7 @@ button {
     justify-content: space-around;
     gap: 72px;
     align-items: center;
+    max-width: 700px;
 }
 
 .btn-secondary {
